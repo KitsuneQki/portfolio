@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="mx-auto">
       <div className="m-5">
-        <div className="bg-dark p-3 col-8 mx-auto rounded shadow-light">
+        <div className="bg-dark p-3 col-lg-10 col-xl-10 col-xxl-9 mx-auto custom-border shadow-light">
           <div className="text-white">
             <Typewriter
               speed={100}

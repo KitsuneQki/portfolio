@@ -1,36 +1,36 @@
 import React from "react";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { HiExternalLink } from "react-icons/hi";
 import { IoLogoDiscord } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className="text-white text-center flex justify-center items-end h-[300px] dark:bg-[#fcf9df]">
-      <div className=" text-gray-300">
+    <div className="text-white text-center d-flex justify-content-center">
+      <div className="text-white">
         <div className="py-4">
-          <h1 className=" py-3 font-bold fs-5 text-center dark:text-[#141414]">
-            Contact
-          </h1>
-          <div className="flex my-4 justify-center">
+          <h1 className="p-4 pb-8 text-white font-bold fs-4">Contact</h1>
+
+          <div className="d-flex">
             <a
-              className="flex justify-center p-3 items-center rounded-md text-decoration-none text-white"
+              className="d-flex text-decoration-none mr-2 py-2 px-3 mx-3 custom-border techs align-items-center text-white mb-3"
               href="https://github.com/KitsuneQki"
             >
-              <AiOutlineGithub />
-              <p className="px-1">Github</p>
+              <AiOutlineGithub className="fs-4" />
+              <p className="my-2 px-1">Github</p>
             </a>
             <a
-              className="flex justify-center p-3 items-center rounded-md text-decoration-none text-white"
+              className="d-flex text-decoration-none mr-2 py-2 px-3 mx-3 custom-border techs align-items-center text-white mb-3"
               href="https://www.linkedin.com/in/kevinzerpa/"
             >
-              <AiOutlineLinkedin />
-              <p className="px-1">LinkedIn</p>
+              <AiOutlineLinkedin className="fs-4" />
+              <p className="my-2 px-1">LinkedIn</p>
             </a>
             <a
-              className="flex justify-center p-3 items-center rounded-md text-decoration-none text-white"
+              className="d-flex text-decoration-none mr-2 py-2 px-3 mx-3 custom-border techs align-items-center text-white mb-3"
               href="/"
             >
-              <IoLogoDiscord />
-              <p className="px-1">Qki #7022</p>
+              <IoLogoDiscord className="fs-4" />
+              <p className="my-2 px-1">Qki #7022</p>
             </a>
           </div>
         </div>

@@ -3,11 +3,9 @@ import Card1 from "./Cards/Card1";
 
 const Carrousel = () => {
   return (
-    <div className="mx-auto text-white">
-      <h1 className="items-center justify-center flex p-4 pb-8 text-white font-bold fs-5 dark:text-[#141414]">
-        Latest Project
-      </h1>
-      <div className="flex items-center justify-center w-full">
+    <div className="mx-auto col-9 text-white mb-5">
+      <h1 className="p-4 pb-8 text-white font-bold fs-4">Latest Project</h1>
+      <div className="d-flex align-items-center justify-content-center w-100">
         <div className="grid items-center grid-cols">
           <Card1 />
         </div>
@@ -15,7 +13,7 @@ const Carrousel = () => {
       <div className="d-flex justify-content-center py-4">
         <a
           href="/works"
-          className="mb-8 btn btn-lg text-white fs-5 border-white"
+          className="mb-8 btn btn-lg btn-outline-dark border-white text-white fs-6 px-4"
         >
           See more
         </a>

@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.thumbnail:hover {
+  background-color: #212529;
+}
+
+.custom-border {
+  border-radius: 15px;
+}
+
+.techs:hover {
+  background-color: #424649;
 }
 
 .App-logo {

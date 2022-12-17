@@ -2,10 +2,10 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="text-start w-100">
+    <div className="text-start col-11 mx-auto">
       <div className="p-4 text-white">
         <div className="p-4">
-          <h1 className="fs-5 fw-bold">Kevin Zerpa</h1>
+          <h1 className="fs-4 fw-bold">Kevin Zerpa</h1>
           <h2 className="fs-5 text-muted">Front-End Developer</h2>
         </div>
         <div className="p-4">
@@ -19,10 +19,10 @@ const Work = () => {
             experience to grow even more.
           </p>
         </div>
-        <div className="d-flex justify-content-center py-4">
+        <div className="btn d-flex justify-content-center p-2">
           <a
             href="https://github.com/KitsuneQki"
-            className="btn btn-lg text-white fs-5 border-white"
+            className="mb-8 btn btn-lg btn-outline-dark border-white text-white fs-6 px-4"
           >
             My portfolio
           </a>
