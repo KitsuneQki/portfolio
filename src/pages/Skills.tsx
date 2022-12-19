@@ -1,76 +1,74 @@
-import React from "react"
-import Contact from "../components/Contact"
-import { DiJavascript1 } from "react-icons/di"
-import { IoLogoHtml5, IoLogoCss3, IoLogoNodejs } from "react-icons/io"
-import { FaReact } from "react-icons/fa"
+import React from "react";
+import Contact from "../components/Contact";
+import { DiJavascript1 } from "react-icons/di";
+import { IoLogoHtml5, IoLogoCss3, IoLogoNodejs } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiNextdotjs,
   SiChakraui,
   SiMaterialui,
   SiStyledcomponents,
-} from "react-icons/si"
+} from "react-icons/si";
 
 const Skills = () => {
   return (
     <div>
-      <div className="bg-[#141414] h-full text-start justify-center flex dark:bg-[#fcf9df]">
-        <div className="w-[90vh] text-gray-300 dark:text-[#141414]">
-          <div className=" text-start justify-start p-6">
-            <h1 className="text-2xl font-bold pt-10">Skills</h1>
+      <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5">
+        <div className="mb-5 text-white">
+          <div className="p-6 pb-5">
+            <h1 className="p-4 pb-5 text-white fw-bold fs-4">Skills</h1>
           </div>
           <div className="pl-8 py-4">
-            <h1 className="font-bold text-xl py-4">Languages</h1>
-            <div className="flex">
+            <h1 className="pb-3 fs-5 text-start text-white">Languages</h1>
+            <div className="d-flex">
               <p className="pl-4 py-2 px-4">
-                <DiJavascript1 className="w-[40px] h-auto" />
+                <IoLogoHtml5 className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
-                <IoLogoHtml5 className="w-[40px] h-auto" />
+                <IoLogoCss3 className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
-                <IoLogoCss3 className="w-[40px] h-auto" />
+                <DiJavascript1 className="fs-1" />
               </p>
             </div>
           </div>
           <div className="pl-8 py-4">
-            <h1 className="font-bold text-xl py-4">Frameworks</h1>
-            <div className="flex">
+            <h1 className="pb-3 fs-5 text-start text-white">Frameworks</h1>
+            <div className="d-flex">
               <p className="pl-4 py-2 px-4">
-                <FaReact className="w-[40px] h-auto" />
+                <FaReact className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
-                <IoLogoNodejs className="w-[40px] h-auto" />
+                <IoLogoNodejs className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
-                <SiTailwindcss className="w-[40px] h-auto" />
+                <SiTailwindcss className="fs-1" />
               </p>
             </div>
           </div>
           <div className="pl-8 py-4">
-            <h1 className="font-bold text-xl py-4">Libraries</h1>
-            <div className="grid grid-cols-4 md:flex">
+            <h1 className="pb-3 fs-5 text-start text-white">Libraries</h1>
+            <div className="grid grid-cols-4 d-flex">
               <p className="pl-4 py-4 px-4">
-                <SiNextdotjs className="w-[40px] h-auto" />
+                <SiNextdotjs className="fs-1" />
               </p>
               <p className="pl-4 py-4 px-4">
-                <SiChakraui className="w-[40px] h-auto" />
+                <SiChakraui className="fs-1" />
               </p>
               <p className="pl-4 py-4 px-4">
-                <SiMaterialui className="w-[40px] h-auto" />
+                <SiMaterialui className="fs-1" />
               </p>
               <p className="pl-4 py-4 px-4">
-                <SiStyledcomponents className="w-[40px] h-auto" />
+                <SiStyledcomponents className="fs-1" />
               </p>
-              <p className="pl-4 py-4 px-4">Headless UI</p>
-              <p className="pl-4 py-4 px-4">NEXT UI</p>
             </div>
           </div>
         </div>
       </div>
       <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

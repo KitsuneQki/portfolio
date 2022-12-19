@@ -16,24 +16,26 @@ const Card = () => {
             Frontend practice project.
           </p>
         </div>
-        <div className="px-3 align-items-center justify-content-between d-flex">
-          <a
-            href="https://github.com/KitsuneQki/my-app"
-            className="btn btn-dark rounded d-flex mr-2 py-2 px-3 border text-white mb-3"
-          >
-            <AiOutlineGithub className="fs-4" />
-          </a>
-          <a
-            href="https://my-app-sigma-puce.vercel.app/"
-            className="btn btn-dark rounded d-flex mr-2 py-2 px-3 border text-white mb-3"
-          >
-            <HiExternalLink className="fs-4" />
-          </a>
-          <div className="d-flex mx-4">
-            <p className="fs-5 rounded d-flex mr-2 py-2 px-3 border-none techs">
+        <div className="px-3 align-items-center d-flex">
+          <div className="d-flex col-6 justify-content-around mr-1">
+            <a
+              href="https://github.com/KitsuneQki/my-app"
+              className="btn btn-dark rounded d-flex mr-2 py-2 px-3 border text-white mb-3"
+            >
+              <AiOutlineGithub className="fs-4" />
+            </a>
+            <a
+              href="https://my-app-sigma-puce.vercel.app/"
+              className="btn btn-dark rounded d-flex mr-2 py-2 px-3 border text-white mb-3"
+            >
+              <HiExternalLink className="fs-4" />
+            </a>
+          </div>
+          <div className="d-flex col-6 justify-content-around">
+            <p className="fs-7 rounded d-flex mr-2 py-2 px-1 text-white border-none techs">
               #ReactJs
             </p>
-            <p className="fs-5 rounded d-flex mr-2 py-2 px-3 border-none techs">
+            <p className="fs-7 rounded d-flex mr-2 py-2 px-1 text-white border-none techs">
               #Bootstrap
             </p>
           </div>
