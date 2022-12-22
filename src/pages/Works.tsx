@@ -1,6 +1,12 @@
 import React from "react";
+import todoapp from "../assets/images/todoapp.png";
+import surveyform from "../assets/images/survey-form.png";
+import tributepage from "../assets/images/tribute-page.png";
+import documentationpage from "../assets/images/documentation-page.png";
+import productpage from "../assets/images/product-page.png";
+import oldportfolio from "../assets/images/oldportfolio.png";
 import Contact from "../components/Contact";
-import Card1 from "../components/Cards/Card1";
+import Card from "../components/Cards/Card";
 
 const Works = () => {
   return (
@@ -12,16 +18,64 @@ const Works = () => {
 
         <div className="row">
           <div className="col-12 col-sm-12 col-md-6">
-            <Card1 />
+            <Card
+              source={todoapp}
+              name="To-do app"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://my-app-sigma-puce.vercel.app/"
+              techs={["React", "Bootstrap"]}
+            />
           </div>
           <div className="col-12 col-sm-12 col-md-6">
-            <Card1 />
+            <Card
+              source={surveyform}
+              name="Survey Form"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://codepen.io/Qki/full/OJOWvEM"
+              techs={["HTML", "CSS"]}
+            />
           </div>
           <div className="col-12 col-sm-12 col-md-6">
-            <Card1 />
+            <Card
+              source={tributepage}
+              name="Tribute Page"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://codepen.io/Qki/full/wvPgqBe"
+              techs={["HTML", "CSS"]}
+            />
           </div>
           <div className="col-12 col-sm-12 col-md-6">
-            <Card1 />
+            <Card
+              source={documentationpage}
+              name="Technical Documentation Page"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://codepen.io/Qki/full/LYOLBXQ"
+              techs={["HTML", "CSS"]}
+            />
+          </div>
+          <div className="col-12 col-sm-12 col-md-6">
+            <Card
+              source={productpage}
+              name="Product Landing Page"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://codepen.io/Qki/full/zYPZKgY"
+              techs={["HTML", "CSS"]}
+            />
+          </div>
+          <div className="col-12 col-sm-12 col-md-6">
+            <Card
+              source={oldportfolio}
+              name="Old Portfolio"
+              description="Frontend practice project."
+              github="https://github.com/KitsuneQki/my-app"
+              link="https://codepen.io/Qki/full/qBVPPNL"
+              techs={["HTML", "CSS"]}
+            />
           </div>
         </div>
 

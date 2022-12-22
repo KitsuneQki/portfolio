@@ -1,14 +1,21 @@
 import React from "react";
 import Contact from "../components/Contact";
 import { DiJavascript1 } from "react-icons/di";
-import { IoLogoHtml5, IoLogoCss3, IoLogoNodejs } from "react-icons/io";
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiChakraui,
+  SiBootstrap,
+  SiTypescript,
   SiMaterialui,
   SiStyledcomponents,
+  SiGit,
+  SiPython,
+  SiSass,
+  SiNodedotjs,
+  SiWebpack,
+  SiVisualstudiocode,
+  SiGraphql,
+  SiPostman,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -29,7 +36,13 @@ const Skills = () => {
                 <IoLogoCss3 className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
+                <SiPython className="fs-1" />
+              </p>
+              <p className="pl-4 py-2 px-4">
                 <DiJavascript1 className="fs-1" />
+              </p>
+              <p className="pl-4 py-2 px-4">
+                <SiTypescript className="fs-1" />
               </p>
             </div>
           </div>
@@ -40,21 +53,33 @@ const Skills = () => {
                 <FaReact className="fs-1" />
               </p>
               <p className="pl-4 py-2 px-4">
-                <IoLogoNodejs className="fs-1" />
-              </p>
-              <p className="pl-4 py-2 px-4">
-                <SiTailwindcss className="fs-1" />
+                <SiBootstrap className="fs-1" />
               </p>
             </div>
           </div>
           <div className="pl-8 py-4">
-            <h1 className="pb-3 fs-5 text-start text-white">Libraries</h1>
+            <h1 className="pb-3 fs-5 text-start text-white">Other tools</h1>
             <div className="grid grid-cols-4 d-flex">
               <p className="pl-4 py-4 px-4">
-                <SiNextdotjs className="fs-1" />
+                <SiVisualstudiocode className="fs-1" />
               </p>
               <p className="pl-4 py-4 px-4">
-                <SiChakraui className="fs-1" />
+                <SiGit className="fs-1" />
+              </p>
+              <p className="pl-4 py-4 px-4">
+                <SiWebpack className="fs-1" />
+              </p>
+              <p className="pl-4 py-4 px-4">
+                <SiSass className="fs-1" />
+              </p>
+              <p className="pl-4 py-4 px-4">
+                <SiGraphql className="fs-1" />
+              </p>
+              <p className="pl-4 py-4 px-4">
+                <SiPostman className="fs-1" />
+              </p>
+              <p className="pl-4 py-4 px-4">
+                <SiNodedotjs className="fs-1" />
               </p>
               <p className="pl-4 py-4 px-4">
                 <SiMaterialui className="fs-1" />
