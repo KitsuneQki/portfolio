@@ -21,7 +21,7 @@ import {
 const Skills = () => {
   return (
     <div>
-      <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5">
+      <div className="mx-auto col-10 col-sm-9 col-lg-6 col-xl-5">
         <div className="mb-5 text-white">
           <div className="p-6 pb-5">
             <h1 className="p-4 pb-5 text-white fw-bold fs-4">Skills</h1>
