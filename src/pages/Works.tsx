@@ -21,7 +21,7 @@ const Works = () => {
             <Card
               source={todoapp}
               name="To-do app"
-              description="Frontend practice project."
+              description="Daily task application."
               github="https://github.com/KitsuneQki/my-app"
               link="https://my-app-sigma-puce.vercel.app/"
               techs={["React", "Bootstrap"]}
@@ -31,7 +31,7 @@ const Works = () => {
             <Card
               source={surveyform}
               name="Survey Form"
-              description="Frontend practice project."
+              description="Form design structure."
               github="https://github.com/KitsuneQki/my-app"
               link="https://codepen.io/Qki/full/OJOWvEM"
               techs={["HTML", "CSS"]}
@@ -41,7 +41,7 @@ const Works = () => {
             <Card
               source={tributepage}
               name="Tribute Page"
-              description="Frontend practice project."
+              description="HTML & CSS template"
               github="https://github.com/KitsuneQki/my-app"
               link="https://codepen.io/Qki/full/wvPgqBe"
               techs={["HTML", "CSS"]}
@@ -51,7 +51,7 @@ const Works = () => {
             <Card
               source={documentationpage}
               name="Technical Documentation Page"
-              description="Frontend practice project."
+              description="Basic HTML, CSS template example."
               github="https://github.com/KitsuneQki/my-app"
               link="https://codepen.io/Qki/full/LYOLBXQ"
               techs={["HTML", "CSS"]}
@@ -61,7 +61,7 @@ const Works = () => {
             <Card
               source={productpage}
               name="Product Landing Page"
-              description="Frontend practice project."
+              description="Product landing structure webpage."
               github="https://github.com/KitsuneQki/my-app"
               link="https://codepen.io/Qki/full/zYPZKgY"
               techs={["HTML", "CSS"]}
@@ -71,7 +71,7 @@ const Works = () => {
             <Card
               source={oldportfolio}
               name="Old Portfolio"
-              description="Frontend practice project."
+              description="Old design portfolio."
               github="https://github.com/KitsuneQki/my-app"
               link="https://codepen.io/Qki/full/qBVPPNL"
               techs={["HTML", "CSS"]}

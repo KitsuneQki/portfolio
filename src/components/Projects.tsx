@@ -22,7 +22,7 @@ const Carrousel = () => {
       <div className="d-flex justify-content-center py-4">
         <Link
           to="/works"
-          className="mb-8 btn btn-lg btn-outline-dark border-white text-white fs-6 px-4"
+          className="mb-5 btn btn-lg btn-outline-dark border-white text-white fs-6 px-4"
         >
           See more
         </Link>

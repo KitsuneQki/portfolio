@@ -1,11 +1,11 @@
-import React, { Fragment, useState } from "react";
-import useLocalStorage from "use-local-storage";
+import React, { Fragment /* useState */ } from "react";
+/* import useLocalStorage from "use-local-storage"; */
 import { Disclosure } from "@headlessui/react";
 /* import foxLogoDark from "../assets/images/foxLogo-dark.png"
 import foxLogoLight from "../assets/images/foxLogo.png" */
 import { Link } from "react-router-dom";
-import { MdDarkMode } from "react-icons/md";
-import { MdLightMode } from "react-icons/md";
+/* import { MdDarkMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md"; */
 import "../index.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -20,7 +20,7 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navbar() {
-  const [dark, setDark] = useLocalStorage("dark", false);
+  /* const [dark, setDark] = useLocalStorage("dark", false);
   const [toggleButton, setToggleButton] = useState(false);
 
   const handleToggle = () => {
@@ -30,25 +30,25 @@ export default function Navbar() {
   const toggleDark = () => {
     setDark(!dark);
     if (dark) {
-      document.body.classList.remove("dark");
+      document.body.classList.remove("bg-dark");
     } else {
-      document.body.classList.add("dark");
+      document.body.classList.add("bg-dark");
     }
-  };
+  }; */
 
   return (
-    <Disclosure as="nav" className="bg-[#141414] dark:bg-[#FFFAF0]">
+    <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
           <div className="col-md-12 col-lg-12 col-xl-10 mx-auto">
-            <div className="px-3 py-1  d-flex align-items-center justify-content-between">
+            <div className="px-5 py-1 fs-5">
               <div className="d-sm-none">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3">
+                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 d-flex justify-content-between">
                   {open ? <AiOutlineClose /> : <AiOutlineMenu />}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="d-flex align-items-center justify-content-center">
                 <div className="d-none d-sm-block">
                   <div className="d-flex">
                     {navigation.map((item) => (
@@ -57,9 +57,9 @@ export default function Navbar() {
                         to={item.href}
                         className={classNames(
                           item.current
-                            ? " text-white text-decoration-none"
-                            : "text-white text-decoration-none",
-                          "px-4 py-2 mx-3 rounded thumbnail"
+                            ? " text-white text-decoration-none mb-5"
+                            : "text-white text-decoration-none mb-5",
+                          "px-4 py-2 mx-5 rounded thumbnail mb-5"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -69,7 +69,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className=" d-flex align-items-center pr-3">
+              {/* <div className=" d-flex align-items-center pr-3">
                 <button
                   onClick={handleToggle}
                   className="btn btn-dark text-white d-flex fs-3"
@@ -80,7 +80,7 @@ export default function Navbar() {
                     <MdLightMode onClick={toggleDark} />
                   )}
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -89,7 +89,7 @@ export default function Navbar() {
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as="a"
+                  as="link"
                   href={item.href}
                   className={classNames(
                     item.current
