@@ -11,12 +11,12 @@ const Work = () => {
         <div className="p-4">
           <h1 className="pb-2 fs-5 fw-bold">Work</h1>
           <p className="fs-6">
-            Kevin Zerpa is a front-end developer based in Venezuela with a great
-            passion for designing and building websites. He has worked with
-            different technologies such as Javascript, Typescript, ReactJS. He
-            is currently studying Fullstack Development at Henry and learning
-            new technologies every day. At the moment he is looking for a new
-            experience to grow even more.
+            Hi, I'm Kevin Zerpa a front-end developer based in Venezuela with a
+            great passion for designing and building websites. I've worked with
+            different technologies such as Javascript, Typescript, ReactJS. I'm
+            currently studying Fullstack Development at Henry and learning new
+            technologies every day. At the moment looking for a new experience
+            to grow even more.
           </p>
         </div>
         <div className="btn d-flex justify-content-center p-2">
