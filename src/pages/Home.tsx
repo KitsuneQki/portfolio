@@ -6,7 +6,7 @@ import Projects from "../components/Projects";
 
 const Homepage = () => {
   return (
-    <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5">
+    <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
       <Title />
       <Work />
       <Projects />

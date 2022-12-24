@@ -40,7 +40,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
-          <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5">
+          <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
             <div className="py-1 fs-5">
               <div className="d-sm-none">
                 {/* Mobile menu button*/}

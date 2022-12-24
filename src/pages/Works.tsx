@@ -10,7 +10,7 @@ import Card from "../components/Cards/Card";
 
 const Works = () => {
   return (
-    <div className="mx-auto col-10 col-sm-10 col-lg-8 col-xl-8">
+    <div className="mx-auto col-10 col-sm-10 col-lg-8 col-xl-8 px-2">
       <div className="min-vh-100">
         <div className="py-8 text-2xl font-bold">
           <h1 className="p-4 pb-8 text-white font-bold fs-4">Work</h1>
