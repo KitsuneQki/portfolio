@@ -44,7 +44,7 @@ export default function Navbar() {
             <div className="py-1 fs-5">
               <div className="d-sm-none">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 d-flex justify-content-between ">
+                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 justify-content-between mt-2">
                   {open ? <AiOutlineClose /> : <AiOutlineMenu />}
                 </Disclosure.Button>
               </div>
