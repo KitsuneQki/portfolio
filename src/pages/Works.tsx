@@ -32,7 +32,7 @@ const Works = () => {
               source={surveyform}
               name="Survey Form"
               description="Form design structure."
-              github="https://github.com/KitsuneQki/my-app"
+              github="https://github.com/KitsuneQki/survey-form"
               link="https://codepen.io/Qki/full/OJOWvEM"
               techs={["HTML", "CSS"]}
             />
@@ -42,7 +42,7 @@ const Works = () => {
               source={tributepage}
               name="Tribute Page"
               description="HTML & CSS template"
-              github="https://github.com/KitsuneQki/my-app"
+              github="https://github.com/KitsuneQki/tribute-page"
               link="https://codepen.io/Qki/full/wvPgqBe"
               techs={["HTML", "CSS"]}
             />
@@ -52,7 +52,7 @@ const Works = () => {
               source={documentationpage}
               name="Technical Documentation Page"
               description="Basic HTML, CSS template example."
-              github="https://github.com/KitsuneQki/my-app"
+              github="https://github.com/KitsuneQki/technical-documentation-page"
               link="https://codepen.io/Qki/full/LYOLBXQ"
               techs={["HTML", "CSS"]}
             />
@@ -62,7 +62,7 @@ const Works = () => {
               source={productpage}
               name="Product Landing Page"
               description="Product landing structure webpage."
-              github="https://github.com/KitsuneQki/my-app"
+              github="https://github.com/KitsuneQki/product-landing-page"
               link="https://codepen.io/Qki/full/zYPZKgY"
               techs={["HTML", "CSS"]}
             />
@@ -72,7 +72,7 @@ const Works = () => {
               source={oldportfolio}
               name="Old Portfolio"
               description="Old design portfolio."
-              github="https://github.com/KitsuneQki/my-app"
+              github="https://github.com/KitsuneQki/old-portfolio"
               link="https://codepen.io/Qki/full/qBVPPNL"
               techs={["HTML", "CSS"]}
             />
