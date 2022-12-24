@@ -40,26 +40,26 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
-          <div className="col-10 col-md-12 col-lg-12 col-xl-10 mx-auto">
+          <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5">
             <div className="py-1 fs-5">
               <div className="d-sm-none">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 d-flex justify-content-between">
+                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 d-flex justify-content-between ">
                   {open ? <AiOutlineClose /> : <AiOutlineMenu />}
                 </Disclosure.Button>
               </div>
-              <div className="d-flex align-items-center justify-content-center">
+              <div className="">
                 <div className="d-none d-sm-block">
-                  <div className="d-flex">
+                  <div className="d-flex justify-content-between align-items-center py-2">
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
                         to={item.href}
                         className={classNames(
                           item.current
-                            ? " text-white text-decoration-none mb-5"
-                            : "text-white text-decoration-none mb-5",
-                          "px-4 py-2 mx-5 rounded thumbnail mb-5"
+                            ? " text-white text-decoration-none"
+                            : "text-white text-decoration-none",
+                          "px-5 py-2 rounded thumbnail"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -85,7 +85,7 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className="d-sm-none">
-            <div className="px-2 pt-2 pb-3">
+            <div className="pb-3">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}

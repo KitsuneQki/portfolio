@@ -2,13 +2,13 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="text-start col-11 mx-auto">
-      <div className="p-4 text-white">
-        <div className="p-4">
+    <div className="text-start col-12 mx-auto">
+      <div className="py-4 text-white">
+        <div className="py-4">
           <h1 className="fs-4 fw-bold">Kevin Zerpa</h1>
           <h2 className="fs-5 text-muted">Front-End Developer</h2>
         </div>
-        <div className="p-4">
+        <div className="py-4">
           <h1 className="pb-2 fs-5 fw-bold">Work</h1>
           <p className="fs-6">
             Hi, I'm Kevin Zerpa a front-end developer based in Venezuela with a

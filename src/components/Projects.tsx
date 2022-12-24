@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Carrousel = () => {
   return (
-    <div className="mx-auto col-9 text-white mb-5">
+    <div className="mx-auto col-12 text-white mb-5">
       <h1 className="p-4 pb-8 text-white font-bold fs-4">Latest Project</h1>
       <div className="d-flex align-items-center justify-content-center w-100">
         <div className="grid items-center grid-cols">
