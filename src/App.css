@@ -9,6 +9,10 @@
   background-color: #212529;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .custom-border {
   border-radius: 15px;
 }

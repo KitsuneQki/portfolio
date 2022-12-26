@@ -10,7 +10,7 @@ const Work = () => {
         </div>
         <div className="py-4">
           <h1 className="pb-2 fs-5 fw-bold">Work</h1>
-          <p className="fs-6">
+          <p className="fs-6 justify">
             Hi, I'm Kevin Zerpa a front-end developer based in Venezuela with a
             great passion for designing and building websites. I've worked with
             different technologies such as Javascript, Typescript, ReactJS. I'm
