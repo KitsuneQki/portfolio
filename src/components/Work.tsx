@@ -21,7 +21,7 @@ const Work = () => {
         </div>
         <div className="btn d-flex justify-content-center p-2">
           <a
-            href="https://github.com/KitsuneQki"
+            href="https://github.com/KitsuneQki/portfolio"
             className="mb-8 btn btn-lg btn-outline-dark border-white text-white fs-6 px-4"
           >
             My portfolio
