@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 /* import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md"; */
 import "../index.css";
+import logo from "../assets/images/logo.jpg";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const navigation = [
@@ -37,19 +38,28 @@ export default function Navbar() {
   }; */
 
   return (
-    <Disclosure as="nav" className="bg-black">
-      {({ open }) => (
-        <>
-          <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
-            <div className="py-1 fs-5">
-              <div className="d-sm-none">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 justify-content-between mt-2">
-                  {open ? <AiOutlineClose /> : <AiOutlineMenu />}
-                </Disclosure.Button>
-              </div>
-              <div className="">
+    <>
+      <Disclosure as="nav" className="bg-black">
+        {({ open }) => (
+          <>
+            <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
+              <div className="py-1 fs-5">
+                <div className="d-sm-none">
+                  {/* Mobile menu button*/}
+                  <Disclosure.Button className="btn btn-dark text-white d-flex fs-3 justify-content-between mt-2">
+                    {open ? <AiOutlineClose /> : <AiOutlineMenu />}
+                  </Disclosure.Button>
+                </div>
+
                 <div className="d-none d-sm-block">
+                  <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
+                    <div className="py-1 fs-5">
+                      <div className="d-flex justify-content-center align-items-center py-2">
+                        <img className="w-75" src={logo} alt="logo" />
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="d-flex justify-content-between align-items-center py-2">
                     {navigation.map((item) => (
                       <Link
@@ -68,8 +78,7 @@ export default function Navbar() {
                     ))}
                   </div>
                 </div>
-              </div>
-              {/* <div className=" d-flex align-items-center pr-3">
+                {/* <div className=" d-flex align-items-center pr-3">
                 <button
                   onClick={handleToggle}
                   className="btn btn-dark text-white d-flex fs-3"
@@ -81,31 +90,32 @@ export default function Navbar() {
                   )}
                 </button>
               </div> */}
+              </div>
             </div>
-          </div>
 
-          <Disclosure.Panel className="d-sm-none">
-            <div className="pb-3">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "text-white d-flex text-decoration-none justify-content-center"
-                      : "text-white d-flex text-decoration-none justify-content-center",
-                    "px-3 py-2 rounded text-decoration-none thumbnail"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
-              ))}
-            </div>
-          </Disclosure.Panel>
-        </>
-      )}
-    </Disclosure>
+            <Disclosure.Panel className="d-sm-none">
+              <div className="pb-3">
+                {navigation.map((item) => (
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    className={classNames(
+                      item.current
+                        ? "text-white d-flex text-decoration-none justify-content-center"
+                        : "text-white d-flex text-decoration-none justify-content-center",
+                      "px-3 py-2 rounded text-decoration-none thumbnail"
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                ))}
+              </div>
+            </Disclosure.Panel>
+          </>
+        )}
+      </Disclosure>
+    </>
   );
 }
