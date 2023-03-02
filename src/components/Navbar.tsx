@@ -42,6 +42,8 @@ export default function Navbar() {
       <Disclosure as="nav" className="bg-black">
         {({ open }) => (
           <>
+            <img className="img-fluid" src={logo} alt="logo" />
+
             <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
               <div className="py-1 fs-5">
                 <div className="d-sm-none">
@@ -52,14 +54,6 @@ export default function Navbar() {
                 </div>
 
                 <div className="d-none d-sm-block">
-                  <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
-                    <div className="py-1 fs-5">
-                      <div className="d-flex justify-content-center align-items-center py-2">
-                        <img className="w-75" src={logo} alt="logo" />
-                      </div>
-                    </div>
-                  </div>
-
                   <div className="d-flex justify-content-between align-items-center py-2">
                     {navigation.map((item) => (
                       <Link
