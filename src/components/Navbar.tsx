@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 /* import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md"; */
 import "../index.css";
-import logo from "../assets/images/logo.jpg";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const navigation = [
@@ -42,8 +41,6 @@ export default function Navbar() {
       <Disclosure as="nav" className="bg-black">
         {({ open }) => (
           <>
-            <img className="img-fluid" src={logo} alt="logo" />
-
             <div className="mx-auto col-12 col-sm-9 col-lg-6 col-xl-5 px-2">
               <div className="py-1 fs-5">
                 <div className="d-sm-none">
@@ -92,8 +89,8 @@ export default function Navbar() {
                 {navigation.map((item) => (
                   <Disclosure.Button
                     key={item.name}
-                    as="a"
-                    href={item.href}
+                    as={Link}
+                    to={item.href}
                     className={classNames(
                       item.current
                         ? "text-white d-flex text-decoration-none justify-content-center"
