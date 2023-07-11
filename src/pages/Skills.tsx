@@ -47,12 +47,12 @@ const Skills = () => {
                 <p className="fw-bold mt-2">Python</p>
               </div>
               <div className="flex-fill mx-4 my-4 col-2 d-flex flex-column justify-content-center align-items-center">
-                <SiJavascript className="fs-1" />
-                <p className="fw-bold mt-2">JavaScript</p>
-              </div>
-              <div className="flex-fill mx-4 my-4 col-2 d-flex flex-column justify-content-center align-items-center">
                 <SiPhp className="fs-1" />
                 <p className="fw-bold mt-2">PHP</p>
+              </div>
+              <div className="flex-fill mx-4 my-4 col-2 d-flex flex-column justify-content-center align-items-center">
+                <SiJavascript className="fs-1" />
+                <p className="fw-bold mt-2">JavaScript</p>
               </div>
               <div className="flex-fill mx-4 my-4 col-2 d-flex flex-column justify-content-center align-items-center">
                 <SiTypescript className="fs-1" />
